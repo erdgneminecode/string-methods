@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        var x="3.45";
+        var a=parseInt(x);
+        document.write(a);
+       
+        var y="Lorem ipsum dolor sit amet."
+        var b=y.length;
+        document.write(b);
+        var c=y.indexOf("dolor");
+        //ya da y.search("dolor"); yazılabilir
+        document.write(c);
+        var d=y.slice(4,7);// 4-7 arasını alır
+        document.write(d);
+        var e=y.substring(2,10);//slice ile aynı ama substring de negatif değer girilemez.
+        document.write(e);
+        var f=y.substr(7,5);//7. indexinden sonra 5 karakter yazdır
+        document.write(f);
+        var g=y.replace("ipsum","ama");//ipsum yerine ama yaz
+        document.write(g);
+         var h=y.toUpperCase();//büyük harfe çevirir
+         document.write(h);
+         //var h=y.tolowercase();//küçük harfe çevirir.
+         var j=y.concat(" ","seni seviyorum");
+         document.write(j);
+         var k=y.trim();//başındaki ve sonundaki boşlukları siler.
+         document.write(k);
+         var l=y.charAt(13);//13.indexteki karakteri getirir
+         document.write(l);
+         var m=y.charCodeAt(13);//13.indexteki karakterin utm kod sistemindeki karşılığı
+         document.write(m);
+         var n=y.split(",");//stringi arraya dönüştürecek
+         document.write(a[2]);
+    </script>
+</body>
+</html>
